@@ -1,9 +1,9 @@
-1. Créez un compte AWS gratuit. (Fait par le formateur)
+1. Créez un compte AWS gratuit. (`Fait par le formateur`)
 
-2. Protégez votre compte root avec un mot de passe fort. (Fait par le formateur)
+2. Protégez votre compte root avec un mot de passe fort. (`Fait par le formateur`)
 
 3. Créez un compte nominatif  (IAM) avec les droits full admin et qui vous permettra
-    de déployer les ressources. (Fait par le formateur)
+    de déployer les ressources. (`Fait par le formateur`)
     
 4. Sur votre station de travail, installez un IDE, par exemple Visual Studio Code et 
     installer les plugins terraform et remote ssh pour vous faciliter l'utilisation des outils.
