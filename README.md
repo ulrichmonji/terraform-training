@@ -1,1 +1,1 @@
-# terraform-training
+# Advanced terraform training
