@@ -22,7 +22,7 @@ resource "aws_instance" "db-dev" {
 }
 
 resource "aws_ebs_volume" "db-ebs" {
-    availability_zone = "us-west-2a"
+    availability_zone = "us-east-1a"
     size = 8
     tags = local.common_tags    
 }
