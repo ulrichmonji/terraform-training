@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "myec2" {
-  ami           = "0715c1897453cabd1"
+  ami           = "ami-0715c1897453cabd1"
   instance_type = lookup(var.instance_type, terraform.workspace)
 
   root_block_device {
