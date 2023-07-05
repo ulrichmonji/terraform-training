@@ -3,7 +3,9 @@
    2. taille: t2.micro
    3. paire de clé: la votre
    4. Tag: NAME: manuel
-
+// terraform import ressource id
+puis
+terraform show > maressource.tf
 2. Dans votre code terraform, importer votre vm créé manuellement.
    1. Pour ce faire, il faut créer une ressource ec2 en lui fournissant toutes les caractéristiques de votre instance
    2. Les caractéristiques à fournir sont:
