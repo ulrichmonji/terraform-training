@@ -5,7 +5,7 @@
 # }
 
 resource "aws_instance" "instance-1" {
-    ami           = "ami-0083662ba17882949"
+    ami           = "ami-0715c1897453cabd1"
     instance_type = "t2.micro"
     count = 3 
 }
