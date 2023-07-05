@@ -5,13 +5,13 @@ provider "aws" {
 }
 
 resource "aws_instance" "dev" {
-    ami           = "ami-0083662ba17882949"
+    ami           = "ami-0715c1897453cabd1"
     instance_type = "t2.micro"
     count = var.istest == true ? 3 : 0 
 }
 
 resource "aws_instance" "prod" {
-    ami           = "ami-0083662ba17882949"
+    ami           = "ami-0715c1897453cabd1"
     instance_type = "t2.large"
     count = var.istest == false ? 1 : 0
 }
