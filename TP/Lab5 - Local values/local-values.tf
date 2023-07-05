@@ -10,13 +10,13 @@ locals {
     }
 }
 resource "aws_instance" "app-dev" {
-    ami           = "ami-0083662ba17882949"
+    ami           = "ami-0715c1897453cabd1"
     instance_type = "t2.micro"
     tags = local.common_tags    
 }
 
 resource "aws_instance" "db-dev" {
-    ami           = "ami-0083662ba17882949"
+    ami           = "ami-0715c1897453cabd1"
     instance_type = "t2.micro"
     tags = local.common_tags    
 }

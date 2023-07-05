@@ -6,7 +6,7 @@ provider "aws" {
 
 variable "elb_names" {
   type = list
-  default = ["dev-loadbalancer","dev-loadbalancer","prod-loadbalancer"]
+  default = ["dev-loadbalancer","vabf-loadbalancer","prod-loadbalancer"]
 }
 
 resource "aws_iam_user" "lb" {
