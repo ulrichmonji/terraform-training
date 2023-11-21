@@ -1,8 +1,8 @@
 resource "aws_eip" "myeip" {
-  vpc = "true"
+  domain = "vpc"
 }
 
 resource "aws_eip" "myeip01" {
-  vpc = "true"
+  domain = "vpc"
   provider = aws.aws02
 }
